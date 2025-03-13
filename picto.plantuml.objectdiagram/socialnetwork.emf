@@ -1,0 +1,15 @@
+@namespace(uri="socialnetwork", prefix="")
+package socialnetwork;
+
+class SocialNetwork {
+	val Person[*] people;
+}
+
+@SI(weight="2")
+class Person {
+	attr String name;
+	ref Person[*] likes;
+
+	@SI(weight="1")
+	ref Person[*] dislikes;
+}
