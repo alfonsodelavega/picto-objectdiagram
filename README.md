@@ -5,7 +5,7 @@ This repository includes a project with two Picto visualisations:
 - An Ecore visualisation that shows the contents of a metamodel using a class diagram notation.
 - A model visualisation that shows the contents of a model using an object diagram notation.
 
-Both visualisations use [PlantUML](https://plantuml.com/) as the graphical notation to visualise the models, and they originate from the `Epsilon Playground`(https://eclipse.dev/epsilon/playground/). The model-to-text transformations that generate the views are present in the `picto` folder of the `picto.plantuml.objectdiagram` Eclipse project. These are single-view Picto visualisations, so no tree to select different views is generated.
+Both visualisations use [PlantUML](https://plantuml.com/) as the graphical notation to visualise the models, and they originate from the [Epsilon Playground](https://eclipse.dev/epsilon/playground/). The model-to-text transformations that generate the views are present in the `picto` folder of the `picto.plantuml.objectdiagram` Eclipse project. These are single-view Picto visualisations, so no tree to select different views is generated.
 
 ## How to use the visualisations
 
